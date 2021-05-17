@@ -9,7 +9,7 @@ if 条件1:
 '''
 
 # 实例：坐公交
-money=0
+money=1
 seat=0
 if money == 1:
     print('请上车')
