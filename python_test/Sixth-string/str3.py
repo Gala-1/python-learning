@@ -13,7 +13,7 @@ newstr3 = mystr.replace('and','和',10)
 print(newstr3)
 
 # 2.split（）语法 -- 字符串序列.split(分割字符，num)  注意：num表示分割字符出现的次数，即返回n+1个数据形成的列表
-    # 按照指定字符分割字符串
+    # 按照指定字符分割字符串   split()默认是按照空格分割
 list1 = mystr.split('and')  #分割字符会丢失
 print(list1)
 list2 = mystr.split('and',2)  #分割2次
